@@ -1,0 +1,158 @@
+<!DOCTYPE html><html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Sections Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      color: #34495e;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .officer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .officer img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-right: 15px;
+      border: 2px solid #ccc;
+    }
+    .details {
+      font-size: 14px;
+    }
+    .notice {
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 4px solid #3498db;
+      margin-top: 10px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ऑफिस सेक्शन माहिती</h1><!-- Registration Section -->
+<div class="section">
+  <h2>नोंदणी विभाग (Registration) – Room 101</h2>
+  <ul>
+    <li>नोंदणी अर्ज स्वीकारणे</li>
+    <li>कागदपत्रांची पडताळणी</li>
+    <li>रेकॉर्ड अद्ययावत करणे</li>
+  </ul>
+  <div class="officer">
+    <img src="reg_apatil.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>श्री. अमोल पाटील</strong><br>
+      Senior Clerk<br>
+      📞 Ext: 1234
+    </div>
+  </div>
+  <div class="officer">
+    <img src="reg_kdeshmukh.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>सौ. कविता देशमुख</strong><br>
+      Registration Officer<br>
+      📞 Ext: 2345
+    </div>
+  </div>
+  <div class="notice">कामकाजाची वेळ: सकाळी 10 – सायं. 5</div>
+  <a href="registration.html" class="button">अधिक माहिती</a>
+</div>
+
+<!-- Tax Section -->
+<div class="section">
+  <h2>कर विभाग (Tax) – Room 202</h2>
+  <ul>
+    <li>कर आकारणी</li>
+    <li>पावती देणे</li>
+    <li>नोंदी ठेवणे</li>
+  </ul>
+  <div class="officer">
+    <img src="tax_deshmukh.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>श्री. राजेश देशमुख</strong><br>
+      Tax Officer<br>
+      📞 Ext: 2211
+    </div>
+  </div>
+  <div class="officer">
+    <img src="tax_jadhav.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>श्री. सुनील जाधव</strong><br>
+      Clerk<br>
+      📞 Ext: 2212
+    </div>
+  </div>
+  <div class="notice">कामकाजाची वेळ: सकाळी 10 – सायं. 5</div>
+  <a href="tax.html" class="button">अधिक माहिती</a>
+</div>
+
+<!-- License Section -->
+<div class="section">
+  <h2>परवाना विभाग (License) – Room 303</h2>
+  <ul>
+    <li>परवाना अर्ज स्वीकारणे</li>
+    <li>टेस्ट वेळापत्रक ठरवणे</li>
+    <li>नवीन/नूतनीकरण प्रक्रिया</li>
+  </ul>
+  <div class="officer">
+    <img src="lic_shinde.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>सौ. रेखा शिंदे</strong><br>
+      Licensing Officer<br>
+      📞 Ext: 3101
+    </div>
+  </div>
+  <div class="officer">
+    <img src="lic_more.jpg" alt="Officer Photo">
+    <div class="details">
+      <strong>श्री. संदीप मोरे</strong><br>
+      Assistant Clerk<br>
+      📞 Ext: 3102
+    </div>
+  </div>
+  <div class="notice">कामकाजाची वेळ: सकाळी 10 – सायं. 5</div>
+  <a href="license.html" class="button">अधिक माहिती</a>
+</div>
+
+  </div>
+</body>
+</html>
